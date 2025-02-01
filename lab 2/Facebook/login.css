@@ -1,0 +1,122 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Login box styling */
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Instagram logo */
+.logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/* Input container with phone icon */
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.phone-icon, .lock-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0095f6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0078d4;
+}
+
+/* Forgot password link */
+.forgot-password a {
+    font-size: 14px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Divider line */
+.divider {
+    margin: 20px 0;
+    position: relative;
+    text-align: center;
+}
+
+.divider span {
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    top: -12px;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+/* Sign up button */
+.signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #3bb75b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #30a24f;
+}
